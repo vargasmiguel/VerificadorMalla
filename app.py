@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.title('Verificador de Malla')
-st.write('by: Miguel Vargas y Linda Rocha')
+st.write('by: Miguel Vargas - Linda Rocha')
 
 st.header('Datos de CORE:')
 core=pd.DataFrame({'Código':['1'], 
