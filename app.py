@@ -36,6 +36,7 @@ ryc = st.data_editor(ryc, num_rows= "dynamic")
 
 
 if st.button('Analizar'):
+    ryc=ryc.sort_values('Observación').drop_duplicates(subset=['Código'], keep='first')
     ryc=ryc.set_index('Código')
     core=core.set_index('Código')
 
